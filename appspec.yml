@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/digicow-staging-applications
+    destination: /var/www/html/test-auto-releases
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
